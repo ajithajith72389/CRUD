@@ -1,0 +1,115 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+.head{
+  color: gray;
+  font-size: large;
+  text-align: center;
+
+}
+
+.search-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.search-box{
+  width: 60%;
+  padding: 8px 10px;
+  margin-left: 10px;
+}
+
+.add-user{
+  margin-right: 10px;
+}
+
+.btn{
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td{
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.add-user{
+  display: block;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.add-user-content{
+  background-color: #fff;
+  margin: 10px auto;
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #888;
+}
+
+.new-btn{
+  width: auto;
+  margin: 10px auto;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close{
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  float: right;
+}
+
+.close:hover, .close:focus{
+  color: black;
+  cursor: pointer;
+}
+
+.input-group{
+  margin-bottom: 20px;
+}
+
+.input-group label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input{
+  width: 90%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #888;
+  outline: none;
+}

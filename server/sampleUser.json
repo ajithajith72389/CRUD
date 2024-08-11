@@ -1,0 +1,19 @@
+[
+    {"Name": "Ajith", "Age": 20, "City": "Namakkal"},
+    {
+        
+        "Name": "Abi",
+        "Age": 20,
+        "City": "Thirupur"
+    },{
+        
+        "Name": "Sesanth",
+        "Age": 20,
+        "City": "Erode"
+    },
+    {
+        "Name": "Sudharshan",
+        "Age": 20,
+        "City": "Thiruchangodu"
+    }
+]
