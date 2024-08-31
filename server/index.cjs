@@ -8,6 +8,7 @@ const fs = require("fs");
 const app = express();
 app.use(express.json());
 const port = 8000
+
 app.use(cors(
 //     {
 //     origin: "http://localhost:5173/",
